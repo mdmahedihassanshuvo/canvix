@@ -1,0 +1,40 @@
+
+.SectionBanner{
+    /* background-image: url(../../assets/bg.png),url(../../assets/bg.png); */
+    /* background-blend-mode: multiply; */
+    background-color: #181a1a;
+    color: white;
+    min-height: calc(100vh - 76px);
+    padding: 0 100px;
+}
+#getBtn {
+  transition: all 0.3s;
+}
+
+#getBtn:hover {
+  color: aliceblue !important;
+  background-color: #0b1fcf;
+}
+@media (min-width: 992px) {
+  .bannerImg {
+    width: 300px;
+  }
+}
+#span{
+    color: #64CCC5;
+}
+
+.brand{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#bannerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/bg1.png);
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
