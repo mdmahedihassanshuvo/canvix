@@ -22,14 +22,14 @@ const Header = () => {
         
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav id="navitem" className="mx-auto">
-            <Nav.Link as={Link} to="/" id="link" className="text-light fs-5">
+            <Nav.Link as={Link} to="/" id="link" className="text-light fs-6">
               Home
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/about"
               id="link"
-              className="text-light fs-5"
+              className="text-light fs-6"
             >
               About
             </Nav.Link>
@@ -37,7 +37,7 @@ const Header = () => {
               as={Link}
               to="/contact"
               id="link"
-              className="text-light fs-5"
+              className="text-light fs-6"
             >
               Contact Us
             </Nav.Link>
