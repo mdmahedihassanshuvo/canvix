@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+  #navitem {
+    gap: 35px;
+  }
+}
+@media (min-width: 768px) {
+  #navitem {
+    gap: 15px;
+  }
+}
+@media (max-width: 576px) {
+  #navitem {
+    gap: 10px;
+  }
+}
+
+#link {
+  position: relative;
+  padding: 0 10px;
+}
+
+#link:after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -2px;
+  transition: 0.3s;
+}
+
+#link:hover:after {
+  width: 100%;
+}
+
+#getBtn{
+    transition: all 0.3s;
+}
+
+#getBtn:hover{
+    color: aliceblue !important;
+    background-color: #0b1fcf;
+}
