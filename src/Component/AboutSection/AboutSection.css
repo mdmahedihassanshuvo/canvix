@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+  .aboutSection {
+    padding: 100px !important;
+    /* min-height: 100vh; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .imageContainer {
+    position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #regImage1 {
+    width: 350px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  #regImage2 {
+    width: 350px !important;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 20;
+  }
+
+  #regImage3 {
+    width: 350px !important;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 30;
+  }
+}
+
+#trailBtn {
+  cursor: pointer;
+}
