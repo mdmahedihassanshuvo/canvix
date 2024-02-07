@@ -1,8 +1,7 @@
 @media (min-width: 992px) {
   .serviceSection {
-    margin-top: 50px !important;
-    margin: auto;
-    margin: 0 100px;
+    /* margin: auto; */
+    margin: 50px 100px 0 100px !important;
   }
   .title {
     font-weight: 700;
@@ -15,34 +14,34 @@
     color: black;
     margin-bottom: 50px;
   }
-  .cardContainer {
+  .ServiceCardContainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 20px;
   }
   .card {
     padding: 20px 40px;
     width: 300px;
     height: 420px;
-    margin: auto;
+    margin: auto !important;
     background-color: #f4f4f4 !important;
     transition: all ease-out 0.7s;
   }
-  .cardDetails{
+  .cardDetails {
     font-size: 12px;
     text-align: justify;
   }
 }
 
 .card:hover {
-    background-color: black !important;
-  }
-  
-  .card:hover #icon {
-    color: black !important;
-    background-color: white !important;
-  }
-  
-  .card:hover .text-black {
-    color: white !important;
-  }
+  background-color: black !important;
+}
+
+.card:hover #icon {
+  color: black !important;
+  background-color: white !important;
+}
+
+.card:hover .text-black {
+  color: white !important;
+}

@@ -1,0 +1,23 @@
+.testimonialSection {
+  margin: 100px !important;
+  padding: 45px;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.testimonialSection img {
+  width: 50px;
+}
+.testimonialSection p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#paginationBtn button:hover {
+  background: rgb(113, 219, 240) !important;
+  color: wheat;
+}

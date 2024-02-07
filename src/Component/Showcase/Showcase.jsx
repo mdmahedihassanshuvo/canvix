@@ -8,7 +8,7 @@ import "./Showcase.css";
 const Showcase = () => {
   return (
     <div className="showcaseSection text-black">
-      <h2 className="fw-semibold  text-center">Recent Showcase</h2>
+      <h2 id="showTitle" className="fw-semibold  text-center">Recent Showcase</h2>
       <div className="cardContainer">
         <div>
           <div className="showCard">

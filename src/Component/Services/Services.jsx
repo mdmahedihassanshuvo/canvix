@@ -15,7 +15,7 @@ const Services = () => {
         High-impact services <br />
         for your business
       </p>
-      <div className="cardContainer">
+      <div className="ServiceCardContainer">
         <div className="card border d-flex flex-column justify-content-between align-items-start gap-md-5">
           <IoPencil className="rounded-circle bg-black text-light fs-1 p-2" id="icon" />
           <div className="text-black">

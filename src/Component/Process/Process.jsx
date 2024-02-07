@@ -13,7 +13,7 @@ const Process = () => {
         Process that moves <br />
         things forward
       </h3>
-      <div className="cardContainer">
+      <div className="processCardContainer">
         <div className="cardItem p-4 border d-flex flex-column justify-content-center align-items-center">
           <div className="d-flex justify-content-center align-items-center gap-3">
             <p className="text-white bg-black fs-3 px-2 rounded-pill "><IoBulb /></p>
