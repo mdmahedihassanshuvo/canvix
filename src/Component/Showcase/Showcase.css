@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+  .showcaseSection {
+    padding: 0 100px;
+  }
+  .cardContainer {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showCard {
+    width: 460px !important;
+    margin: 0 auto !important;
+  }
+  #showCard {
+    margin-top: 100px !important;
+  }
+}
