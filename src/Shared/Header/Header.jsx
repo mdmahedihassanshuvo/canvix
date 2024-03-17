@@ -10,10 +10,12 @@ const Header = () => {
       <Navbar className="bg-dark px-5" expand="lg">
         <Navbar.Brand
           href="#"
-          className="d-flex align-items-center justify-content-center gap-2"
+          
         >
+          <div className="d-flex align-items-center justify-content-center gap-2">
           <img style={{ width: "20px" }} src={logo} alt="" />
-          <h5 className="text-light fs-4">Canvix</h5>
+          <h5 className="text-light fs-4 mb-0">Canvix</h5>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle
           className="text-light bg-light"

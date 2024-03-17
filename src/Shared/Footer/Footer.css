@@ -1,0 +1,58 @@
+
+@media (min-width: 577px){
+  #footer-section{
+    padding: 100px !important;
+    width: 100% !important;
+    height: 400px !important;
+    background-color: black !important;
+    color: aliceblue !important;
+}  
+#section-item{
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+#side-1{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: start !important;
+    align-items: start !important;
+    gap: 10px !important;
+}
+#side-1 h5{
+    font-size: 30px!important;
+    font-weight: 600!important;
+}
+#side-1 p{
+    font-size: 12px!important;
+    font-weight: 400!important;
+}
+#side-2{
+    text-align: center;
+}
+#side2T{
+    font-size: 12px;
+    font-weight: 400;
+}
+.side3-div{
+    background: white !important;
+    display: flex !important;
+    padding: 5px !important;
+    justify-content: space-between !important;
+    align-items: center!important;
+    border-radius: 30px !important;
+}
+.side3-div input{
+    border: none !important;
+}
+.side3-div button{
+    background: black !important;
+    color: aliceblue !important;
+    border-radius: 20px !important;
+    margin: 5px !important;
+    transition: all 0.5s ease-in-out !important;
+}
+.side3-div button:hover{
+    color: brown !important;
+
+}
+}
