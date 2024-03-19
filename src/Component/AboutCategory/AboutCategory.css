@@ -1,0 +1,23 @@
+@media (min-width: 577px) {
+  #aboutCContainer {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px !important;
+    text-align: center !important;
+    margin: 0 100px !important;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+  }
+  #slide h3 {
+    font-size: 30px !important;
+    font-weight: 600;
+  }
+  .slideTitle {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+  .slideDetails {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+  }
+}

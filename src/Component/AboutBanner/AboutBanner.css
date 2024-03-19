@@ -1,0 +1,38 @@
+@media (min-width: 577px) {
+  #about-banner {
+    margin: 0 100px !important;
+    margin-top: 50px !important;
+    color: #fbfbfb;
+    padding: 100px 50px !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 150px !important;
+    border-radius: 10px !important;
+  }
+  .side1 h3 {
+    font-weight: 600 !important;
+    font-size: 35px !important;
+  }
+  .side1 p {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    text-align: justify;
+  }
+  .side2 {
+    position: relative !important;
+  }
+  .side2 img {
+    margin: auto !important;
+    position: absolute !important;
+    width: 250px !important;
+    float: right !important;
+  }
+  .side2 #sImg2 {
+    top: 25px !important;
+    left: 35px !important;
+  }
+  .side2 #sImg3 {
+    top: 50px !important;
+    left: 70px !important;
+  }
+}
