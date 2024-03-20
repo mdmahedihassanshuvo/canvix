@@ -1,4 +1,3 @@
-import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
@@ -34,6 +33,14 @@ const Header = () => {
               className="text-light fs-6"
             >
               About
+            </Nav.Link>
+            <Nav.Link
+              as={Link}
+              to="/project"
+              id="link"
+              className="text-light fs-6"
+            >
+              Projects
             </Nav.Link>
             <Nav.Link
               as={Link}

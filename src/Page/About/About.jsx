@@ -3,6 +3,7 @@ import "./About.css";
 import AboutBanner from "../../Component/AboutBanner/AboutBanner";
 import AboutCategory from "../../Component/AboutCategory/AboutCategory";
 import AboutTeam from "../../Component/AboutTeam/AboutTeam";
+import AboutTalkBar from "../../Component/AboutTalkBar/AboutTalkBar";
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <AboutBanner />
       <AboutCategory />
       <AboutTeam />
+      <AboutTalkBar />
     </div>
   );
 };

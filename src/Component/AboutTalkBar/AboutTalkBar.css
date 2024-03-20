@@ -1,0 +1,41 @@
+@media (min-width: 577px) {
+  #talkBarSection {
+    margin: 50px !important;
+    position: relative !important;
+  }
+  #talkBarSection h3 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    color: rgb(255, 255, 255);
+  }
+  #talkBarSection img {
+    padding: 0 50px !important;
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
+  #contactBtn {
+    font-size: 14px !important;
+    padding: 4px 8px !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: black !important;
+    background: white !important;
+    cursor: pointer !important;
+  }
+  #contactBar {
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    top: 50% !important;
+    left: 30% !important;
+    right: 25% !important;
+    z-index: 20 !important;
+    transition: all 1s ease-out;
+  }
+  #contactBtn:hover {
+    color: honeydew !important;
+    background: rgb(113, 219, 240) !important;
+  }
+}
