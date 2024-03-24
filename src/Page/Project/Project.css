@@ -1,0 +1,50 @@
+@media (min-width: 577px) {
+  .portfolioSection {
+    margin: 0 100px !important;
+  }
+  #portfolioBanner {
+    margin: 50px 0 !important;
+    background: #000;
+    height: 250px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 20px !important;
+  }
+  #portfolioBanner h3 {
+    color: #fff;
+    font-size: 35px !important;
+    font-weight: 800 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  #portfolio {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+    margin: 100px 0 !important;
+    cursor: pointer !important;
+  }
+  #portfolio img {
+    width: 70% !important;
+  }
+  #portfolio-Content {
+    /* text-align: left !important; */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+  }
+  #portfolio-Content h5 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-bottom: 4px !important;
+  }
+  #portfolio-Content p {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    margin-bottom: 4px !important;
+  }
+}
